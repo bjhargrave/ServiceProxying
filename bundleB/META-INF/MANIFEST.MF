@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: BundleB
+Bundle-SymbolicName: bundleB
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: bundleb.Activator
+Import-Package: org.foo;version="[1.0.0,2.0.0)",
+ org.osgi.framework;version="[1.6.0,2.0.0)",
+ org.osgi.util.tracker;version="[1.5.0,2.0.0)"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
